@@ -7,11 +7,71 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="navtop">
+                <div class="container">
+                    <img src="./img/Screenshot_3-6-2024_171833_www.beniculturali.it.jpeg" alt="beniculturali">
+                    <h1 class="title">Benvenuto! Supporta anche tu il nuovo artista emergente!!</h1>
+                    <a href="https://www.beniculturali.it/ente/direzione-generale-archeologia-belle-arti-e-paesaggio"></a>
+                    <a href="#">DIREZIONE GENERALE ARCHEOLOGIA, BELLE ARTI E PAESAGGIO</a>
+                </div>
 
-    <h2 id="pass_user"></h2>
+                <div class="navbottom">
+                    <div class="container">
+                      <img src="./img/Screenshot_3-6-2024_172450_www.beniculturali.it.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class="Pronti">
+              <h3>Pronti!</h3>
+              <p>Inserisci i tuoi dati in un campo Sicuramente sicuro:</p>
+            </div>
+    
+            <div class="dati">
+              <div>
+                <span>Il tuo nome è: </span><span><stron id="userName"></stron></span>
+              </div>
+              <div>
+                <span>Il tuo cognome è: </span><span><stron id="surName"></stron></span>
+              </div>
+              <div>
+                <span>Il tuo colore preferito è: </span><span><stron id="favoriteColor"></stron></span>
+              </div>
+              <div>
+                <span>La tua password : </span><span><stron id="pass_user"></stron></span>
+              </div>
+            </div>
+        </section>
+
+        <section class="action container">
+            <h3>Ultimo passo ci siamo quasi!</h3>
+            <span>Ora insersci qui il tuo Metodo di pagamento per aiutare l'artista</span>
+            <div class="form">
+              <input type="text" name="N° Carta di credito" minlength="13" maxlength="16" placeholder="N° Carta di credito" required>
+              <input type="text" name="Date" minlength="3" maxlength="3" placeholder="Data di scadenza" required>
+              <input type="text" name="N° CVV/CVC" minlength="3" maxlength="3" placeholder="N° CVV/CVC" required>
+              <input type="submit" value="INVIA">
+            </div>
+        </section>
+
+        <section class="mostra">
+            <div class="art">
+                <img src="./img/Screenshot_3-6-2024_162144_witeboard.com.jpeg" alt="art">
+           </div>
+        </section>
+
+        <h2>Grazie!</h2>
+        <span>Ora rilassati ti arriverà nel più breve possibile una copia!!</span>
+    </main>
 
     <!-- inserimento script js -->
 <script  src="./JS/main.js">
 </script>
 </body>
 </html>
+

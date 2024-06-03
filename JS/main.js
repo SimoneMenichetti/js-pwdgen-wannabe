@@ -20,3 +20,5 @@
 
 // Infine scrivi sulla pagina nomecognomecolorepreferito23
 
+document.getElementById("pass_user").innerHTML = "i dati anagrafici utente più colore preferito ed il numero equivale a: " + risultato;
+
